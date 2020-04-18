@@ -2,7 +2,18 @@
 /*    background-color: red*/
 /*}*/
 
-/*.head-border {*/
-/*    background-color: blue;*/
-/*    height: 100%*/
+.head-border {
+    background-color: blue;
+    height: 80px;
+}
+
+.jumbotron {
+    background: url("../img/laptop-image.jpeg");
+    background-size: cover;
+    height: 350px;
+}
+
+/*#main-jumbo {*/
+/*    background: url("../imgs/pizza-jumbotron.png");*/
+/*    background-size: cover;*/
 /*}*/
