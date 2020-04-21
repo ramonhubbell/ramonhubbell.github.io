@@ -8,10 +8,32 @@
 }
 
 .jumbotron {
-    background: url("../img/laptop-image.jpeg");
+    background: url("../imgs/laptop-image.jpeg");
     background-size: cover;
     height: 350px;
 }
+
+/*img { width: 250px;*/
+/*    height: 250px;*/
+/*}*/
+
+#head-photo-small {
+    box-shadow: 10px 5px 5px black;
+    width: 400px;
+    height: 400px;
+}
+
+#head-photo-large {
+    width: 250px;
+    height: 250px;
+    box-shadow: 10px 5px 5px black;
+}
+
+main {
+    background-color: cornflowerblue;
+}
+
+
 
 /*#main-jumbo {*/
 /*    background: url("../imgs/pizza-jumbotron.png");*/
