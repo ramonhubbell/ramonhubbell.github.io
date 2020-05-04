@@ -7,11 +7,60 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/ramonspage.css">
     <script src="https://kit.fontawesome.com/068546a344.js"></script>
+
 </head>
 <body>
-<div class="container-wrap">
-    <div class="head-border bg-primary"></div>
-</div>
+<!--<div class="container-wrap">-->
+<!--    <div class="head-border bg-primary"></div>-->
+<!--    <div class="pos-f-t">-->
+<!--        <div class="collapse" id="navbarToggleExternalContent">-->
+<!--            <div class="bg-dark p-4">-->
+<!--                <h5 class="text-white h4">Collapsed content</h5>-->
+<!--                <span class="text-muted">Toggleable via the navbar brand.</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <nav class="navbar navbar-dark bg-primary">-->
+<!--            <button class="navbar-toggler" type="button" data-toggle="collapse"-->
+<!--                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"-->
+<!--                    aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</div>-->
+<!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#"></a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+            class="fas fa-bars fa-1x"></i></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">ABOUT ME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#social">SOCIAL</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
 <div class="jumbotron jumbotron-fluid d-sm-none d-md-none d-lg-block">
     <img id="head-photo-large" class="rounded-circle mx-auto d-block display-4"
          src="imgs/Ramon Hubbell img19370 (1).jpg" alt="Example Image">
@@ -22,42 +71,17 @@
 </div>
 
     <main class="container-fluid">
+        <h1 id="top">Top of the page</h1>
         <div class="container">
-            <h1>My Experience</h1>
-            <div>
-                <h2>
-                    Full Stack Developer
-                </h2>
-            </div>
-            <p>
-                I am passionate about continually improving my skills as a web developer. I know that I would be a great
-                addition to a company
-                who is looking for a team player. Along with my newly acquired technical skills, I also have great
-                experience working within a team
-                of developers. Within this team we successfully completed a few projects that we are very proud of and
-                that solved a problem
-                for our users.
-            </p>
-            <h3>
-                Technical Skills
-            </h3>
-            <P>
-                CSS, HTML, Javascript, jQuery, API, Bootsrap, Paired Programming, Test Driven Development
-            </P>
-            <h3>
-                Professional Experience
-            </h3>
-            <h4>
-                Keller Williams Realty
-            </h4>
-            <p>
-                2008 - 2020
-            </p>
-        </div>
+            <h1 id="about">ABOUT</h1>
+            <h1 id="projects">PROJECTS</h1>
+            <h1 id="social">SOCIAL</h1>
 
+        </div>
+        <a href="#top">Go to the top of the page</a>
     </main>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ramonspage.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"

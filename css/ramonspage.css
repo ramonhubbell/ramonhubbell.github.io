@@ -2,6 +2,11 @@
 /*    background-color: red*/
 /*}*/
 
+#main-navbar {
+    width: 140px;
+    height: 100px;
+}
+
 .head-border {
     background-color: blue;
     height: 80px;
@@ -31,4 +36,12 @@
 
 main {
     background-color: cornflowerblue;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
 }
