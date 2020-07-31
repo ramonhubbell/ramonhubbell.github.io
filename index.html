@@ -10,76 +10,34 @@
 
 </head>
 <body>
-<!--<div class="container-wrap">-->
-<!--    <div class="head-border bg-primary"></div>-->
-<!--    <div class="pos-f-t">-->
-<!--        <div class="collapse" id="navbarToggleExternalContent">-->
-<!--            <div class="bg-dark p-4">-->
-<!--                <h5 class="text-white h4">Collapsed content</h5>-->
-<!--                <span class="text-muted">Toggleable via the navbar brand.</span>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <nav class="navbar navbar-dark bg-primary">-->
-<!--            <button class="navbar-toggler" type="button" data-toggle="collapse"-->
-<!--                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"-->
-<!--                    aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                <span class="navbar-toggler-icon"></span>-->
-<!--            </button>-->
-<!--        </nav>-->
-<!--    </div>-->
-<!--</div>-->
-<!--Navbar-->
-<nav class="navbar navbar-light light-blue lighten-4">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#"></a>
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-            class="fas fa-bars fa-1x"></i></span></button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#about">ABOUT ME<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">PROJECTS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#social">SOCIAL</a>
-            </li>
-        </ul>
-        <!-- Links -->
-
-    </div>
-    <!-- Collapsible content -->
-
-</nav>
-<!--/.Navbar-->
-<div class="jumbotron jumbotron-fluid d-sm-none d-md-none d-lg-block">
-    <img id="head-photo-large" class="rounded-circle mx-auto d-block display-4"
-         src="imgs/Ramon Hubbell img19370 (1).jpg" alt="Example Image">
-</div>
-<div class="p-5">
-    <img id="head-photo-small" class="rounded-circle mx-auto d-block display-4 d-sm-block d-md-block d-lg-none"
-         src="imgs/Ramon Hubbell img19370 (1).jpg" alt="Example Image">
-</div>
-
-    <main class="container-fluid">
-        <h1 id="top">Top of the page</h1>
-        <div class="container">
-            <h1 id="about">ABOUT</h1>
-            <h1 id="projects">PROJECTS</h1>
-            <h1 id="social">SOCIAL</h1>
-
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <a href="#top">Go to the top of the page</a>
-    </main>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">Welcome To Our Studio!</div>
+        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    </div>
+</header>
+
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/ramonspage.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
