@@ -10580,3 +10580,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
         padding: 7rem;
     }
 }
+
+.showcase {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
